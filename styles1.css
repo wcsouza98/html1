@@ -1,0 +1,85 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #CCCCCC;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; 
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+}
+
+/* Estilo da Foto Principal */
+.foto-principal img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo "Sobre" */
+.sobre {
+    width: 940px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre h2 {
+    color: brown;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/*Seção de Produtos */
+.link-produtos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #993300;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    color: #777;
+    font-size: 14px;
+}

@@ -1,0 +1,130 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #CCCCCC;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+}
+
+.hero img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.produtos {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* imagens dos produtos */
+.produto-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.produto {
+    background-color: #f1f1f1; 
+    width: 30%; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+}
+
+.produto img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.produto p {
+    font-size: 16px;
+    font-weight: bold;
+    color: brown;
+}
+
+/* tabela  */
+.tabela {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+/* formulário */
+.formulario {
+    width: 50%;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
